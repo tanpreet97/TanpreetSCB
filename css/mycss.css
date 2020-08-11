@@ -1,0 +1,45 @@
+ul{
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 20px 50px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    color: green;
+  }
+
+
+.division {
+    display: inline-block;
+    width: 220px;
+    height: 200px;
+    margin: 19px;
+}
+
+.division-img {
+    width: 220px;
+    height: 200px;
+
+}
+
+.division-heading {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.division-desc {
+    font-size: 14px;
+}
